@@ -1,7 +1,7 @@
-# team-profile-generator
+
 # Description
 The purpose of this project is to populate an employee tracker database that displays members of a company.
-#Installation
+# Installation
 1. Run npm install
 2. Run schema.sql 
 # Languages
