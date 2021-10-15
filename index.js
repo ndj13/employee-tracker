@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-const mysql = require("mysql");
+
 const consoleTable = require('console.table')
 
 const db = require('./db/connection');
@@ -7,7 +7,47 @@ const db = require('./db/connection');
 const chalk = require('chalk');
 const figlet = require('figlet');
 
+function employeeList () {
+    
+}
 
+function employeeListBD () {
+    
+}
+
+function employeeListBM () {
+    
+}
+
+function addEmployee () {
+    
+}
+
+function removeEmployee () {
+    
+}
+function updateRole () {
+    
+}
+
+function viewDP () {
+    
+}
+function viewRoles () {
+    
+}
+function addnewDP () {
+    
+}
+function addnewRole () {
+    
+}
+function removeRole () {
+    
+}
+function exitApp () {
+    
+}
 
 function mainmenu() {
     inquirer
@@ -83,3 +123,5 @@ function employeeList() {
         mainmenu();
     })
 };
+
+mainmenu();
